@@ -26,4 +26,4 @@ app.post('/api', function (req, res) {
 });
 
 
-app.listen(6001, () => console.log('Server has been started...'))
+app.listen(6001, () => console.log(`Server has been started on ${PORT} port...`))
